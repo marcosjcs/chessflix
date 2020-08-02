@@ -39,7 +39,7 @@ export default function AddCategory() {
     
     const URL = window.location.href.includes('localhost') 
           ? 'http://localhost:8080/categories' 
-          : 'https://chessflix.heroku.com/categories'; 
+          : 'https://chessflix.herokuapp.com/categories'; 
     fetch(URL)
       .then(async (response) =>{
       if(response.ok) {
