@@ -58,7 +58,7 @@
     {
       "id": 7,
       "title": "Treinamento Lance do Mestre",
-      "color": "red",
+      "color": "#6b5be2",
       "link_extra": {
         "text": "Treine com um Grande Mestre",
         "url": "https://rafaelleitao.com/lance-mestre-tomada-decisao"
@@ -69,146 +69,267 @@
     {
       "id": 1,
       "categoryId": 1,
-      "title": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "title": "Sistema London",
+      "url": "https://youtu.be/wE0rLaZ2KZ0",
+      "description": "O que jogar de brancas? Conheça este sistema de abertura que faz parte do repertório de Grandes Mestres como Boris Grachev, Gata Kamsky e Magnus Carlsen. Aprenda com o GM Evandro Barbosa as ideias gerais e os temas típicos do meio jogo."
     },
     {
       "id": 2,
       "categoryId": 1,
-      "title": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+      "title": "Abertura Ruy Lopez",
+      "url": "https://youtu.be/TyWJJro6Vw8"
     },
     {
       "id": 3,
       "categoryId": 1,
-      "title": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+      "title": "Abertura Italiana",
+      "url": "https://youtu.be/dv9h6klKCLE"
     },
     {
       "id": 4,
       "categoryId": 1,
-      "title": "Pare de chutar e aprenda a display: inline #01",
-      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+      "title": "Abertura Inglesa",
+      "url": "https://youtu.be/SXg7YrPyZYY"
     },
     {
       "id": 5,
       "categoryId": 1,
-      "title": "Template String: Interpolando strings com JavaScript #AluraMais",
-      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+      "title": "Defesa Siciliana Dragão Acelerado",
+      "url": "https://youtu.be/x2po70geJ4o"
     },
     {
       "id": 6,
       "categoryId": 1,
-      "title": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+      "title": "Defesa Grünfeld",
+      "url": "https://youtu.be/G1fGrvd9xdg"
     },
     {
       "id": 7,
       "categoryId": 1,
-      "title": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+      "title": "Defesa Caro Kann",
+      "url": "https://youtu.be/EQvbfdSyWPg"
     },
     {
       "id": 8,
       "categoryId": 2,
-      "title": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+      "title": "Aprendendo sobre meio-jogo",
+      "url": "https://youtu.be/KFV6v6I-dEU"
     },
     {
       "id": 9,
       "categoryId": 2,
-      "title": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+      "title": "Como criar planos no meio-jogo",
+      "url": "https://youtu.be/rlMmDz4ZgU0"
     },
     {
       "id": 10,
       "categoryId": 2,
-      "title": "Programei 4 robôs que criam vídeos para mim no YouTube",
-      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+      "title": "Quais peças devo trocar no meio-jogo?",
+      "url": "https://youtu.be/frPIisKf57Q"
     },
     {
       "id": 11,
       "categoryId": 2,
-      "title": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+      "title": "Estudar estratégia e saber o que fazer no meio-jogo",
+      "url": "https://youtu.be/0CDXWIAXlNs"
     },
     {
       "id": 12,
       "categoryId": 2,
-      "title": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+      "title": "Quer saber o que fazer no meio jogo? Entenda a estrutura de peões!",
+      "url": "https://youtu.be/o0DJA7Sx2Vg"
     },
     {
       "id": 13,
       "categoryId": 3,
-      "title": "Teste de Turing",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+      "title": "Dominando os Finais Básicos",
+      "url": "https://youtu.be/6pWMVox9xvo"
     },
     {
       "id": 14,
       "categoryId": 3,
-      "title": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+      "title": "Os Três Finais de Torres Essenciais",
+      "url": "https://youtu.be/cRX1ebaBxBw"
     },
     {
       "id": 15,
       "categoryId": 3,
-      "title": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+      "title": "Xeque-mate com Bispo e Cavalo",
+      "url": "https://youtu.be/1K_dFnsivW4"
     },
     {
       "id": 16,
       "categoryId": 3,
-      "title": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+      "title": "Finais Teóricos: Peões",
+      "url": "https://youtu.be/iwL10nw4c6M"
     },
     {
       "id": 17,
       "categoryId": 4,
-      "title": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+      "title": "Dez livros que você deve ler",
+      "url": "https://youtu.be/u-WZnMvAe2o"
     },
     {
       "id": 18,
       "categoryId": 4,
-      "title": "Gattaca",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+      "title": "Livros de Xadrez em Português",
+      "url": "https://youtu.be/0Nu8SLyiV5Q"
     },
     {
       "id": 19,
       "categoryId": 4,
-      "title": "A Chegada",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+      "title": "Os dez Livros que me tornaram GM",
+      "url": "https://youtu.be/BpgstOypYg8"
     },
     {
       "id": 20,
       "categoryId": 4,
-      "title": "Feitiço do Tempo",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+      "title": "Grandes Livros de Partidas",
+      "url": "https://youtu.be/OgGW4W_CeqA"
     },
     {
       "id": 21,
       "categoryId": 5,
-      "title": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+      "title": "De Steinitz a Kasparov: A Melhor Partida de Cada Campeão Mundial de Xadrez!",
+      "url": "https://youtu.be/93vjdOz68Yg"
     },
     {
       "id": 22,
       "categoryId": 5,
-      "title": "Assassins Creed Valhalla",
-      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+      "title": "A Imortal de Steinitz",
+      "url": "https://youtu.be/w0U16kI6EgI"
     },
     {
       "id": 23,
       "categoryId": 5,
-      "title": "God of War 4",
-      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+      "title": "A Imortal do Kasparov",
+      "url": "https://youtu.be/DkWgRaO862o"
     },
     {
       "id": 24,
       "categoryId": 5,
-      "title": "Resident Evil 8",
-      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+      "title": "A Imortal de Mikhail Tal",
+      "url": "https://youtu.be/9yjJsmcUBXQ"
+    },
+    {
+      "id": 25,
+      "categoryId": 6,
+      "title": "Wilhelm Steinitz (1886 a 1894)",
+      "url": "https://youtu.be/K9BcLLriiFg"
+    },
+    {
+      "id": 26,
+      "categoryId": 6,
+      "title": "Emanuel Lasker (1894 a 1921)",
+      "url": "https://youtu.be/3Qx0AOzbNxk"
+    },
+    {
+      "id": 27,
+      "categoryId": 6,
+      "title": "José Raúl Capablanca (1921 a 1927)",
+      "url": "https://youtu.be/tJawhyTGPZ4"
+    },
+    {
+      "id": 28,
+      "categoryId": 6,
+      "title": "Alexander Alekhine (1927 a 1935 e 1937 a 1946)",
+      "url": "https://youtu.be/CWfPCVpmIuA"
+    },
+    {
+      "id": 29,
+      "categoryId": 6,
+      "title": "Max Euwe (1935 a 1937)",
+      "url": "https://youtu.be/9hjCs_j7Mho"
+    },
+    {
+      "id": 30,
+      "categoryId": 6,
+      "title": "Mikhail Botvinnik (1948 a 1957, 1958 a 1960 e 1961 a 1963)",
+      "url": "https://youtu.be/m3plIgMLj4k"
+    },
+    {
+      "id": 31,
+      "categoryId": 6,
+      "title": "Vasily Smyslov (1957 a 1958)",
+      "url": "https://youtu.be/cyrIpfNnuUA"
+    },
+    {
+      "id": 32,
+      "categoryId": 6,
+      "title": "Mikhail Tal (1960 a 1961)",
+      "url": "https://youtu.be/ZzSuZrR18ug"
+    },
+    {
+      "id": 33,
+      "categoryId": 6,
+      "title": "Tigran Petrosian (1963 a 1969)",
+      "url": "https://youtu.be/8Y0NwpvvtX4"
+    },
+    {
+      "id": 34,
+      "categoryId": 6,
+      "title": "Boris Spassky  (1969 a 1972)",
+      "url": "https://youtu.be/VL_geQD-tp8"
+    },
+    {
+      "id": 35,
+      "categoryId": 6,
+      "title": "Robert Fischer (1972 a 1975)",
+      "url": "https://youtu.be/k6TxPW4d1As"
+    },
+    {
+      "id": 36,
+      "categoryId": 6,
+      "title": "Anatoly Karpov (1975 a 1985 e 1993 a 1999)",
+      "url": "https://youtu.be/Gjkda5Tuczc"
+    },
+    {
+      "id": 37,
+      "categoryId": 6,
+      "title": "Garry Kasparov (1985 a 1992 e 1993 a 2000 pela PCA)",
+      "url": "https://youtu.be/rwxXaOUOuEc"
+    },
+    {
+      "id": 38,
+      "categoryId": 6,
+      "title": "Vladimir Kramnik (2000 a 2006 pela PCA e 2006 a 2007)",
+      "url": "https://youtu.be/l4YMC5BwpVY"
+    },
+    {
+      "id": 39,
+      "categoryId": 7,
+      "title": "Conheça o Método Lance do Mestre",
+      "url": "https://youtu.be/ngZ-tc_Koa0"
+    },
+    {
+      "id": 40,
+      "categoryId": 7,
+      "title": "Treinamento Lance do Mestre com Tigran Petrosian",
+      "url": "https://youtu.be/wdb0tXFC0vA"
+    },
+    {
+      "id": 41,
+      "categoryId": 7,
+      "title": "Treinamento Lance do Mestre com Mikhail Tal",
+      "url": "https://youtu.be/1RGSytgw_WA"
+    },
+    {
+      "id": 42,
+      "categoryId": 7,
+      "title": "Treinamento Lance do Mestre com Bobby Fischer",
+      "url": "https://youtu.be/pfledRUlMUw"
+    },
+    {
+      "id": 43,
+      "categoryId": 7,
+      "title": "Treinamento Lance do Mestre com Anatoly Karpov",
+      "url": "https://youtu.be/FGGEP7Xz5Gk"
+    },
+    {
+      "id": 44,
+      "categoryId": 7,
+      "title": "Treinamento Lance do Mestre com Garry Kasparov",
+      "url": "https://youtu.be/DWqfbgSNti8"
     }
   ]
 }

@@ -10,9 +10,9 @@ function Menu() {
       <Link to="/">
         <img className="Logo" src={Logo} alt="Chess Flix Logo"/>
       </Link>
-      {/* <Button as={Link} className="ButtonLink" to="/add/video">
+      <Button as={Link} className="ButtonLink" to="/add/video">
         Novo vídeo
-      </Button> */}
+      </Button>
     </nav>
   )
 }

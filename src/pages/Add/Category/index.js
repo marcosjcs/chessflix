@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Default from '../../Default';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 export default function AddCategory() {
   const initialValues = {
@@ -11,28 +12,15 @@ export default function AddCategory() {
     color: '',
   };
 
+  const { handleChange, values, clearForm } = useForm(initialValues);
+
   const [categories, setCategories] = useState([]);
-  const [category, setCategory] = useState(initialValues);
-
-  function setValue(chave, valor) {
-    setCategory({
-      ...category,
-      [chave]: valor,
-    });
-  }
-
-  function handleChange(e) {
-    setValue(
-      e.target.getAttribute('name'),
-      e.target.value,
-    );
-  }
 
   function handleNewCategory(e) {
     e.preventDefault();
 
-    setCategories([...categories, category]);
-    setCategory(initialValues);
+    setCategories([...categories, values]);
+    clearForm();
   }
 
   useEffect(() => {
@@ -61,7 +49,7 @@ export default function AddCategory() {
           label="Nome da Categoria"
           type="text"
           name="name"
-          value={category.name}
+          value={values.name}
           onChange={handleChange}
         />
 
@@ -69,7 +57,7 @@ export default function AddCategory() {
           label="Descrição"
           type="textarea"
           name="description"
-          value={category.description}
+          value={values.description}
           onChange={handleChange}
         />
 
@@ -77,7 +65,7 @@ export default function AddCategory() {
           label="Cor"
           type="color"
           name="color"
-          value={category.color}
+          value={values.color}
           onChange={handleChange}
         />
 
@@ -86,9 +74,15 @@ export default function AddCategory() {
         </Button>
       </form>
 
+      {categories.length === 0 && (
+        <div>
+          Loading...
+        </div>
+      )}
+
       <ul>
-        {categories.map((categoria) => (
-          <li key={categoria}>{categoria.title}</li>
+        {categories.map((category) => (
+          <li key={category.id}>{category.title}</li>
         ))}
       </ul>
 
