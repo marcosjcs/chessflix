@@ -32,8 +32,73 @@ a {
   flex-direction: column;
 }
 
+.container {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.container .icon {
+  width: 200px;
+}
+
+.container .icon path {
+  fill: transparent;
+  stroke-width: 10;
+  stroke: #2A7AE4;
+}
+
+.container .icon.chess path {
+  stroke-dasharray: 1580;
+  stroke-dashoffset: 0;
+  animation: animate-chess 3s linear forwards infinite;  
+}
+
+@keyframes animate-chess {
+  0%
+  {
+    stroke-dashoffset: 0;
+  }
+  40%
+  {
+    stroke-dashoffset: 1580;
+  }
+  80%
+  {
+    stroke-dashoffset: 3160;
+    fill: transparent;
+  }
+  100%
+  {
+    stroke-dashoffset: 3160;
+    fill: #2A7AE4;
+  }
+}
+
+.loading {
+  font-size: 60px;
+  animation: animate-loading 1s ease-in-out infinite;
+}
+
+@keyframes animate-loading {
+  50%
+  {
+    opacity: 0;
+  }
+}
+
 @media (min-width: 1100px) {
   .slick-list {
     overflow: visible !important;
-  } 
+  }
+}
+
+@media (max-width: 800px) {
+  .container {    
+    top: 40%;    
+  }
 }
